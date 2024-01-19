@@ -7,8 +7,8 @@
 pluginadeversion="0.0.2";
 
 # Change the following variables to your plugin's namespace and textdomain:
-textdomain="pattern-manager";
-namespace="PatternManager";
+textdomain="sample-plugin";
+namespace="SamplePlugin";
 
 # Dont make any more edits below this line.
 
