@@ -1,11 +1,11 @@
 <?php
 /**
- * Plugin Name: Pluginade Sample
+ * Plugin Name: Sample Plugin
  * Plugin URI: pluginade.com
  * Description: A sample plugin which demonstrates how to build a plugin with Pluginade.
  * Version: 0.0.0
  * Author: Pluginade
- * Text Domain: pluginade-sample
+ * Text Domain: sample-plugin
  * Domain Path: languages
  * License: GPLv2
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
@@ -13,12 +13,12 @@
  * Requires PHP: 7.4
  * Network:
  * Update URI:
- * Namespace: PluginadeSample
+ * Namespace: SamplePlugin
  *
  * @package pluginade-sample
  */
 
-namespace PluginadeSample;
+namespace SamplePlugin;
 
 // Exit if accessed directly.
 if ( ! defined( 'ABSPATH' ) ) {

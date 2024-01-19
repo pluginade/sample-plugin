@@ -4,12 +4,12 @@
  * Description: A sample module for pluginade.
  * Namespace: SampleModule1
  *
- * @package pluginade-sample
+ * @package sample-plugin
  */
 
 declare(strict_types=1);
 
-namespace PluginadeSample\SampleModule1;
+namespace SamplePlugin\SampleModule1;
 
 // Exit if accessed directly.
 if ( ! defined( 'ABSPATH' ) ) {
