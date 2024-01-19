@@ -1,4 +1,4 @@
-name: Build and Test
+name: Test and Build
 
 on: [push]
 
@@ -10,11 +10,6 @@ jobs:
         uses: actions/checkout@v2
         with:
           path: plugins/sample-plugin
-
-      # - name: Install Docker
-      #   run: |
-      #     sudo apt-get update
-      #     sudo apt-get install -y docker.io
 
       - name: Installing Pluginade
         working-directory: plugins/sample-plugin
@@ -32,11 +27,6 @@ jobs:
         with:
           path: plugins/sample-plugin
 
-      - name: Install Docker
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y docker.io
-
       - name: Installing Pluginade
         working-directory: plugins/sample-plugin
         run: sh pluginade.sh install
@@ -52,11 +42,6 @@ jobs:
         uses: actions/checkout@v2
         with:
           path: plugins/sample-plugin
-
-      - name: Install Docker
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y docker.io
 
       - name: Installing Pluginade
         working-directory: plugins/sample-plugin
@@ -74,11 +59,6 @@ jobs:
         with:
           path: plugins/sample-plugin
 
-      - name: Install Docker
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y docker.io
-
       - name: Installing Pluginade
         working-directory: plugins/sample-plugin
         run: sh pluginade.sh install
@@ -94,11 +74,6 @@ jobs:
         uses: actions/checkout@v2
         with:
           path: plugins/sample-plugin
-
-      - name: Install Docker
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y docker.io
 
       - name: Installing Pluginade
         working-directory: plugins/sample-plugin
@@ -117,11 +92,6 @@ jobs:
         uses: actions/checkout@v2
         with:
           path: plugins/sample-plugin
-
-      - name: Install Docker
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y docker.io
 
       - name: Installing Pluginade
         working-directory: plugins/sample-plugin
