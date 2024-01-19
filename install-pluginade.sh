@@ -1,1 +1,0 @@
-cd ./.pluginade; sh make-packagejson.sh -n BlueprintInstaller -t blueprint-installer -p ${OLDPWD};
