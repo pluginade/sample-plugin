@@ -43,7 +43,7 @@ function include_custom_modules() {
 			require $filepath;
 		} else {
 			// Translators: The name of the module, and the filename that needs to exist inside that module.
-			echo esc_html( sprintf( __( 'The module called "%1$s" has a problem. It needs a file called "%2$s" to exist in its root directory.', 'fse-studio' ), $module_name, $filename ) );
+			echo esc_html( sprintf( __( 'The module called "%1$s" has a problem. It needs a file called "%2$s" to exist in its root directory.', 'sample-plugin' ), $module_name, $filename ) );
 			exit;
 		}
 	}
